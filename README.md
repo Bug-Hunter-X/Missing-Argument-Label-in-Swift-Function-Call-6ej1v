@@ -1,0 +1,3 @@
+This example demonstrates a common error in Swift function calls: forgetting to include argument labels.  Swift functions often have both internal and external parameter names.  When calling the function, you *must* use the external parameter name unless you explicitly omit the label in function definition using the underscore `_`.
+
+The `bug.swift` file shows the incorrect function call, which results in a compiler error.  The `bugSolution.swift` file shows the corrected version.
